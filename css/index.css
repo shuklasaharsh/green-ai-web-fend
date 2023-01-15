@@ -1,9 +1,30 @@
 .index-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 200%;
 }
 
 .flex-col {
     display: flex;
+    justify-content: space-around;
+    flex-flow: column;
+}
+
+.flex-row {
+    display: flex;
     justify-content: center;
+    flex-direction: row;
+}
+
+.row-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    border-style: solid;
+    height: 35px;
+    width: fit-content;
 }
 

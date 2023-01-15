@@ -1,0 +1,9 @@
+.index-image {
+    width: 200%;
+}
+
+.flex-col {
+    display: flex;
+    justify-content: center;
+}
+

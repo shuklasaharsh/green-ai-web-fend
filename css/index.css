@@ -1,0 +1,40 @@
+.nav-container {
+    display: flex;
+    justify-items: center;
+    flex-direction: column-reverse;
+}
+
+.brand {
+    display: flex;
+    color: #eeaaaa;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.brand-name-text {
+    display: flex;
+    margin-left: 2px;
+    justify-content: flex-baseline;
+}
+
+.brand-fancy {
+    color: #06e274;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+}
+
+.brand-fancy:hover {
+    color: inherit;
+}
+
+.brand:hover {
+    color: #06e274;
+}
+
+.navbar-toggler-icon-custom {
+    color: #06e274;
+}
+
+.nav-link:hover {
+    color: #06e274;
+    background-color: rgba(0, 0, 0, 0.1);
+}

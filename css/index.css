@@ -38,3 +38,10 @@
     color: #06e274;
     background-color: rgba(0, 0, 0, 0.1);
 }
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
